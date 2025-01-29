@@ -146,3 +146,56 @@ export const skills = [
         ]
     }
 ];
+
+export const experiences = [
+    {
+        id: 0,
+        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+        role: "Backend Developer",
+        company: "Secure Smarter Services Inc.",
+        date: "June 2022 - December 2024",
+        descriptions: [
+            "Integrated third-party services, including payment gateways, SMS notification systems, and game providers, ensuring smooth communication and security across platforms",
+            "Designed and optimized database structures, including schema design, indexing, and query performance.",
+            "Established coding standards and guidelines for junior software engineers to maintain consistency, providing feedback to ensure adherence to best practices.",
+            "Configured and set up Capistrano for automated deployments, streamlining the deployment process to ensure seamless updates to staging and production environments.",
+            "Monitored and maintained Sidekiq, a background job processor in Rails, to manage tasks like sending emails, processing payments, and generating reports."
+        ],
+        skills: [
+          "Ruby on Rails",
+          "Javascript",
+          "CSS",
+          "Bootstrap",
+          "TailwindCSS",
+          "Ajax",
+          "Stimulus JS",
+          "JQuery",
+          "MySQL",
+          "Docker",
+          "Postman",
+          "WordPress"
+        ],
+        doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+      },
+      {
+        id: 0,
+        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+        role: "PHP Programmer",
+        company: "Okkda Asia Technologies Inc.",
+        date: "September 2019 - July 2021",
+        descriptions: [
+            "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+            "Working on the Backend of the web application using ReactJS, Redux, and Material UI."
+        ],
+        skills: [
+          "ReactJS",
+          "Redux",
+          "NodeJs",
+          "Material UI",
+          "HTML",
+          "CSS",
+          "JavaScript",
+        ],
+        doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+      },
+]
