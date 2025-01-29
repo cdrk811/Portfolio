@@ -92,7 +92,7 @@ export const skills = [
         ]
     },
     {
-        title: "Frameworks",
+        title: "Frameworks & CMS",
         skills: [
             {
                 name: "Laravel",
@@ -102,11 +102,6 @@ export const skills = [
                 name: "Ruby on Rails",
                 image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
             },
-        ]
-    },
-    {
-        title: "CMS",
-        skills: [
             {
                 name: "WordPress",
                 image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
