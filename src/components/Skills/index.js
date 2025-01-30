@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from "styled-components";
 import { skills } from "../../data/constants";
 import { Container, Wrapper, Title, Desc, SkillsContainer, Skill, SkillTitle, SkillList, SkillItem, SkillImage } from './SkillStyle'
 
@@ -8,19 +7,17 @@ const Skills = () => {
         <Container id="skills">
             <Wrapper>
                 <Title>Skills</Title>
-                <Desc>
-                    Here are some of my skills on which I have been working on for the past 4 years.
-                </Desc>
+                <Desc>Here are some of my skills on which I have been working on for the past 4 years.</Desc>
 
                 <SkillsContainer>
-                    {skills.map((item) => (
+                    {skills.map((skill) => (
                         <Skill>
-                            <SkillTitle>{item.title}</SkillTitle>
+                            <SkillTitle>{skill.title}</SkillTitle>
                             <SkillList>
-                                {item.skills.map((skill) => (
+                                {skill.skills.map((item) => (
                                     <SkillItem>
-                                        <SkillImage src={skill.image} />
-                                        {skill.name}
+                                        <SkillImage src={item.image} />
+                                        {item.name}
                                     </SkillItem>
                                 ))}
                             </SkillList>

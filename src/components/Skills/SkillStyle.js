@@ -10,21 +10,25 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-    max-width: 1100px;
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    flex-direction: column;
     width: 100%;
+    max-width: 1100px;
     gap: 12px;
+
+    @media (max-width: 960px) {
+        flex-direction: column;
+    }
 `;
 
 export const Title = styled.div`
     font-size: 42px;
-    font-weight: 600;
     text-align: center;
-    margin-top: 12px;
+    font-weight: 600;
+    margin-top: 20px;
     color: ${({ theme }) => theme.text_primary };
 
     @media (max-width: 768px) {
@@ -36,6 +40,7 @@ export const Title = styled.div`
 export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
+    max-width: 600px;
     color: ${({ theme }) => theme.text_primary };
 
     @media (max-width: 768px) {
@@ -48,8 +53,8 @@ export const SkillsContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-    justify-content: center;
     gap: 30px;
+    justify-content: center;
 `;
 
 export const Skill = styled.div`
@@ -57,12 +62,13 @@ export const Skill = styled.div`
     max-width: 500px;
     background-color: ${({ theme }) => theme.card };
     border: 0.1px solid #854ce6;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     border-radius: 16px;
     padding: 18px 36px;
     
     @media (max-width: 768px) {
         max-width: 400px;
-        padding: 18px 36px;
+        padding: 10px 36px;
     }
 
     @media (max-width: 500px) {
@@ -75,7 +81,7 @@ export const SkillTitle = styled.h2`
     font-size: 28px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_secondary };
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     text-align: center;
 `;
 
@@ -88,16 +94,16 @@ export const SkillList = styled.div`
 `;
 
 export const SkillItem = styled.div`
+    font-size: 16px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 80 };
+    border: 1px solid ${({ theme }) => theme.text_primary + 80 };
+    border-radius: 12px;
+    padding: 12px 16px;
     display: flex;
     align-items: center;
-    gap: 8px;
     justify-content: center;
-    font-size: 16px;
-    color: ${({ theme }) => theme.text_primary + 80 };
-    border-radius: 12px;
-    border: 1px solid ${({ theme }) => theme.text_primary + 80 };
-    padding: 12px 16px;
-    font-weight: 400;
+    gap: 8px;
 
     @media (max-width: 768px) {
         font-size: 14px;
