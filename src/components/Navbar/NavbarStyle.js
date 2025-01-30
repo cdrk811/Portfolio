@@ -17,6 +17,11 @@ export const Nav = styled.div`
     }
 `;
 
+const ColorText = styled.div`
+  color: ${({ theme }) => theme.primary};
+  font-size: 32px;
+`;
+
 export const NavContainer = styled.div`
     display: flex;
     justify-content: space-between;
@@ -114,15 +119,13 @@ export const ButtonContainer = styled.div`
 
 export const MobileIcon = styled.div`
     display: none;
+    color: ${({ theme }) => theme.text_primary };
+    height: 100%;
+    align-items: center;
     @media screen and (max-width: 768px) {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%)
-        font-size: 1.5rem
-        cursor: pointer
-        color: ${({ theme }) => theme.text_primary }
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 `;
 
@@ -132,7 +135,7 @@ export const MobileMenu = styled.div`
     justify-content: center;
     gap: 16px;
     position: absolute;
-    top: 80;
+    top: 80px;
     right: 0;
     width: 100%;
     padding: 12px 40px 24px 40px;

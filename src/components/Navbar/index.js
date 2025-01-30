@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useTheme } from "styled-components";
 import { DiCssdeck } from "react-icons/di";
-import { FaBars } from "react-icons/fa"
 import { Bio } from '../../data/constants';
 import { Nav, NavContainer, NavLogo, Span, MobileIcon, 
          NavItems, NavLink, ButtonContainer, GithubButton, 
          MobileMenu, MobileNavLogo, MobileLink } from "./NavbarStyle";
+import { MenuRounded } from '@mui/icons-material';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false)
@@ -19,7 +19,7 @@ const Navbar = () => {
                     </a>
                 </NavLogo>
                 <MobileIcon>
-                    <FaBars onClick={() => {
+                    <MenuRounded onClick={() => {
                         setOpen(!open);
                     }} />
                 </MobileIcon>
