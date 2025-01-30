@@ -392,3 +392,22 @@ export const projects = [
       webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     },
   ];
+
+  export const educations = [
+    {
+      id: 0,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      school: "Technological University of the Philippines - Taguig Campus",
+      date: "2017 - 2019",
+      desc: "I completed my Bachelor's degree in Information Technology at Technological University of the Philippines.",
+      degree: "Bachelor of Technology - BTech, Information Technology",
+    },
+    {
+      id: 1,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      school: "Technological University of the Philippines - Taguig Campus",
+      date: "2014 - 2017",
+      desc: "I completed my Computer Engineering at Technological University of the Philippines.",
+      degree: "Computer Engineering Technology (CoET)",
+    }
+  ];
