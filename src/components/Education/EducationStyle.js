@@ -7,11 +7,11 @@ export const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
-    padding: 0px 0px 60px 0px;
+    // padding: 0px 0px 60px 0px;
 
-    @media (max-width: 960px) {
-        padding: 0px;
-    }
+    // @media (max-width: 960px) {
+    //     padding: 0px;
+    // }
 `;
 
 export const Wrapper = styled.div`
@@ -31,7 +31,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.div`
-    font-size: 42px;
+    font-size: 52px;
     text-align: center;
     font-weight: 600;
     margin-top: 20px;
@@ -46,27 +46,12 @@ export const Title = styled.div`
 export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
-    max-width: 800;
+    max-width: 600;
     color: ${({ theme }) => theme.text_secondary };
 
     @media (max-width: 768px) {
-        max-width: 600;
-        margin-top: 12px;
+        // max-width: 600;
+        // margin-top: 12px;
         font-size: 16px;
     }
-`;
-
-export const TimeLineSection = styled.div`
-    width: 100%;
-    max-width: 1000px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-
-    // @media (max-width: 660px) {
-    //     align-items: end;
-    // }
 `;

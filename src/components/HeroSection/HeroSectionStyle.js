@@ -143,12 +143,15 @@ export const SubTitle = styled.div`
     color: ${({ theme }) => theme.text_primary + 95 };
     line-height: 32px;
     margin-bottom: 42px;
+    text-align: justify;
 
     @media (max-width: 960px) {
+        text-align: justify;
         text-align: center;
     }
 
     @media (max-width: 640px) {
+        text-align: justify;
         font-size: 16px;
         line-height: 32px;
     }
