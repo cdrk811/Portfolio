@@ -7,7 +7,7 @@ export const Bio = {
     ],
     description: "I am experienced software engineer specializing in Ruby on Rails development. Skilled in building web applications, creating RESTful APIs, optimizing databases, and integrating third-party services. Passionate about delivering clean, maintainable, and user-friendly solutions while collaborating effectively with teams to achieve project goals. Strong engineering professional holding a Bachelor of Technology in Information Technology from the Technological University of the Philippines.",
     github: "https://github.com/cdrk811",
-    resume: "https://drive.google.com/file/d/1iIz88-et2r0JuMpRcOL1wdZhkm0LdL6l/view?usp=sharing",
+    resume: "https://drive.google.com/uc?export=download&id=1iIz88-et2r0JuMpRcOL1wdZhkm0LdL6l",
     linkedin: "https://www.linkedin.com/in/cedrick-v-b79253233/",
     // twitter: "",
     // insta: "",

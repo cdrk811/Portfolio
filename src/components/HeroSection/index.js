@@ -41,7 +41,7 @@ const HeroSection = () => {
                                 <SubTitle>{Bio.description}</SubTitle>
                             </motion.div>
                             
-                            <ResumeButton href={Bio.resume} target="_blank">
+                            <ResumeButton href={Bio.resume}>
                                 Download CV
                             </ResumeButton>
                         </HeroLeftContainer>
