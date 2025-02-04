@@ -2,7 +2,7 @@ import React from 'react';
 import { HeroContainer, HeroBg, HeroInnerContainer, HeroLeftContainer, Title, TextLoop, Span, SubTitle, ResumeButton, HeroRightContainer, Image } from "./HeroSectionStyle";
 import { Bio } from '../../data/constants';
 import { Typewriter } from "react-simple-typewriter";
-import HeroImg from "../../images/HeroImage.jpg";
+import profile from "../../images/profile.png";
 import HeroBgAnimation from '../HeroBgAnimation';
 import { motion } from "framer-motion";
 import { headContainerAnimation, headContentAnimation, headTextAnimation } from "../../utils/motion";
@@ -49,7 +49,7 @@ const HeroSection = () => {
                         <HeroRightContainer>
                             <motion.div {...headContentAnimation}>
                                 <Tilt>
-                                    <Image src={HeroImg} alt="Cedrick Valencia" />
+                                    <Image src={profile} alt="Cedrick Valencia" />
                                 </Tilt>
                             </motion.div>
                         </HeroRightContainer>
