@@ -1,14 +1,30 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.81a90fc4.css",
-    "main.js": "/Portfolio/static/js/main.14704098.js",
-    "static/media/HeroImage.jpg": "/Portfolio/static/media/HeroImage.c00bde72958df372adf5.jpg",
+    "main.js": "/Portfolio/static/js/main.872abd6a.js",
+    "static/media/profile.png": "/Portfolio/static/media/profile.fa0f17412ec3fd15a51e.png",
+    "static/media/Ruby.png": "/Portfolio/static/media/Ruby.d2625a43803d588bd8c6.png",
+    "static/media/Technological_University_of_the_Philippines_Seal.png": "/Portfolio/static/media/Technological_University_of_the_Philippines_Seal.5a6e7dbdd74901299bd1.png",
+    "static/media/HTML5.png": "/Portfolio/static/media/HTML5.2cd5d05c9660ec55992e.png",
+    "static/media/Bootstrap.png": "/Portfolio/static/media/Bootstrap.7ec629589d73f8a028c5.png",
+    "static/media/RubyMine.png": "/Portfolio/static/media/RubyMine.ae090d27d640cf37653d.png",
+    "static/media/DataGrip.png": "/Portfolio/static/media/DataGrip.fd53876dbe33165801ef.png",
+    "static/media/WordPress.png": "/Portfolio/static/media/WordPress.959e73fc18036b8ad82f.png",
+    "static/media/Visual Studio Code (VS Code).png": "/Portfolio/static/media/Visual Studio Code (VS Code).c451d51c85d02c2a3841.png",
+    "static/media/Figma.png": "/Portfolio/static/media/Figma.2b512d290bb8b0334d7c.png",
+    "static/media/PostgresSQL.png": "/Portfolio/static/media/PostgresSQL.17c2814e17fd9d441e1f.png",
+    "static/media/Git.png": "/Portfolio/static/media/Git.8d37adcd9121c2aba1e0.png",
+    "static/media/PHP.png": "/Portfolio/static/media/PHP.47ef190b3fc4f67ce062.png",
+    "static/media/Laravel.png": "/Portfolio/static/media/Laravel.54ccab32fdab41b4b2b9.png",
+    "static/media/Docker.png": "/Portfolio/static/media/Docker.4e29864a43ac93d4f457.png",
+    "static/media/React.png": "/Portfolio/static/media/React.98ff38735baa4c1b0381.png",
+    "static/media/okkda_asia_technologies.PNG": "/Portfolio/static/media/okkda_asia_technologies.134459fecd5007fdbd95.PNG",
     "index.html": "/Portfolio/index.html",
     "main.81a90fc4.css.map": "/Portfolio/static/css/main.81a90fc4.css.map",
-    "main.14704098.js.map": "/Portfolio/static/js/main.14704098.js.map"
+    "main.872abd6a.js.map": "/Portfolio/static/js/main.872abd6a.js.map"
   },
   "entrypoints": [
     "static/css/main.81a90fc4.css",
-    "static/js/main.14704098.js"
+    "static/js/main.872abd6a.js"
   ]
 }
