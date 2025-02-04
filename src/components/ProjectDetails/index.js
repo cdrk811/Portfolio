@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Wrapper, Image, Title, Date, Tags, Tag, Desc, Label, Members, Member, MemberImage, MemberName, ButtonGroup, Button } from "./ProjectDetailStyle";
+import { Container, Wrapper, Image, Title, Date, Tags, Tag, Desc, Label, Members, Member, MemberImage, MemberName, ButtonGroup, Button, ButtonDisabled } from "./ProjectDetailStyle";
 import { CloseRounded, GitHub, LinkedIn } from "@mui/icons-material";
 import { Modal } from "@mui/material";
 
@@ -41,7 +41,11 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
 
                     <ButtonGroup>
                         <Button dull href={project?.github} target="new">View Code</Button>
-                        <Button href={project?.webapp} target="new">View Live App</Button>
+                        {project?.webapp !== 'none' ? (
+                            <Button href={project?.webapp} target="new">View Live App</Button>
+                        ) : (
+                            <ButtonDisabled disabled="true">View Live App</ButtonDisabled>
+                        )}
                     </ButtonGroup>
                 </Wrapper>
             </Container>
