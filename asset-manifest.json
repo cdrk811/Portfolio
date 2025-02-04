@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.81a90fc4.css",
-    "main.js": "/Portfolio/static/js/main.872abd6a.js",
+    "main.js": "/Portfolio/static/js/main.d6215825.js",
+    "static/media/Portfolio.PNG": "/Portfolio/static/media/Portfolio.b473f85bddf1f1d051c3.PNG",
+    "static/media/music-player.PNG": "/Portfolio/static/media/music-player.ac7947385dd750ba717d.PNG",
     "static/media/profile.png": "/Portfolio/static/media/profile.fa0f17412ec3fd15a51e.png",
     "static/media/Ruby.png": "/Portfolio/static/media/Ruby.d2625a43803d588bd8c6.png",
     "static/media/Technological_University_of_the_Philippines_Seal.png": "/Portfolio/static/media/Technological_University_of_the_Philippines_Seal.5a6e7dbdd74901299bd1.png",
@@ -10,6 +12,7 @@
     "static/media/RubyMine.png": "/Portfolio/static/media/RubyMine.ae090d27d640cf37653d.png",
     "static/media/DataGrip.png": "/Portfolio/static/media/DataGrip.fd53876dbe33165801ef.png",
     "static/media/WordPress.png": "/Portfolio/static/media/WordPress.959e73fc18036b8ad82f.png",
+    "static/media/Tictactoe.PNG": "/Portfolio/static/media/Tictactoe.6f5ef4cf28e3e674e48f.PNG",
     "static/media/Visual Studio Code (VS Code).png": "/Portfolio/static/media/Visual Studio Code (VS Code).c451d51c85d02c2a3841.png",
     "static/media/Figma.png": "/Portfolio/static/media/Figma.2b512d290bb8b0334d7c.png",
     "static/media/PostgresSQL.png": "/Portfolio/static/media/PostgresSQL.17c2814e17fd9d441e1f.png",
@@ -21,10 +24,10 @@
     "static/media/okkda_asia_technologies.PNG": "/Portfolio/static/media/okkda_asia_technologies.134459fecd5007fdbd95.PNG",
     "index.html": "/Portfolio/index.html",
     "main.81a90fc4.css.map": "/Portfolio/static/css/main.81a90fc4.css.map",
-    "main.872abd6a.js.map": "/Portfolio/static/js/main.872abd6a.js.map"
+    "main.d6215825.js.map": "/Portfolio/static/js/main.d6215825.js.map"
   },
   "entrypoints": [
     "static/css/main.81a90fc4.css",
-    "static/js/main.872abd6a.js"
+    "static/js/main.d6215825.js"
   ]
 }
