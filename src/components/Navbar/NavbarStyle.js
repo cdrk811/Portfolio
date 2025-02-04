@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
-import _default from "../../themes/default";
 
 export const Nav = styled.div`
     background-color: ${({ theme }) => theme.card_light};
@@ -17,10 +16,10 @@ export const Nav = styled.div`
     }
 `;
 
-const ColorText = styled.div`
-  color: ${({ theme }) => theme.primary};
-  font-size: 32px;
-`;
+// const ColorText = styled.div`
+//   color: ${({ theme }) => theme.primary};
+//   font-size: 32px;
+// `;
 
 export const NavContainer = styled.div`
     display: flex;

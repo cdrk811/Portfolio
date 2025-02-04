@@ -1,8 +1,8 @@
 import React from "react";
 import { Top, Image, Body, Role, 
-    Company, Date, Description, Skills, 
-    ItemWrapper, Skill, Span } from "./ExperienceCardStyle";
-    import { VerticalTimelineElement } from "react-vertical-timeline-component";
+        Company, Date, Description, Skills, 
+        ItemWrapper, Skill, Span } from "./ExperienceCardStyle";
+import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
 const ExperienceCard = ({ experience }) => {
     return (
@@ -60,12 +60,6 @@ const ExperienceCard = ({ experience }) => {
                     </>
                 }
             </Description>
-
-            {/* {experience.doc && 
-                <a href={experience.doc} target="new">
-                    <Document src={experience.doc} />
-                </a>
-            } */}
         </VerticalTimelineElement>
     )
 };

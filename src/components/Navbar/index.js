@@ -4,7 +4,7 @@ import { DiCssdeck } from "react-icons/di";
 import { Bio } from '../../data/constants';
 import { Nav, NavContainer, NavLogo, Span, MobileIcon, 
          NavItems, NavLink, ButtonContainer, GithubButton, 
-         MobileMenu, MobileNavLogo, MobileLink } from "./NavbarStyle";
+         MobileMenu, MobileLink } from "./NavbarStyle";
 import { MenuRounded } from '@mui/icons-material';
 
 const Navbar = () => {

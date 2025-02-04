@@ -4,7 +4,7 @@ import Education from './components/Education';
 import HeroSection from './components/HeroSection';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
-import { darkTheme, lightTheme } from "./utils/Themes";
+import { darkTheme } from "./utils/Themes";
 import styled, { ThemeProvider } from "styled-components";
 import Experience from './components/Experience';
 import Project from './components/Projects';

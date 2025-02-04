@@ -31,12 +31,14 @@ export const HeroBg = styled.div`
     max-width: 1360px;
     overflow: hidden;
     padding: 0 30px;
-    top: 50%;
-    left: 50%;
+    top: 62%;
+    left: 52%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 
     @media (max-width: 960px) {
+        top: 45%;
+        left: 50%;
         justify-content: center;
         padding: 0 0px;
     }

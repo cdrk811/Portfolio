@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Top, Image, Body, Name, Degree, Date, Description, Span } from "./EducationCardStyle";
+import { Top, Image, Body, Name, Degree, Date, Description, Span } from "./EducationCardStyle";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
 const EducationCard = ({ education }) => {

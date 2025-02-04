@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Wrapper, Title, Desc, TimeLineSection } from "./ExperienceStyle";
+import { Container, Wrapper, Title, Desc } from "./ExperienceStyle";
 import { experiences } from "../../data/constants";
 import ExperienceCard from "../Cards/ExperienceCard";
 import { VerticalTimeline } from "react-vertical-timeline-component";
