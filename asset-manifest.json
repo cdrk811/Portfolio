@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.81a90fc4.css",
-    "main.js": "/Portfolio/static/js/main.d6215825.js",
+    "main.css": "/Portfolio/static/css/main.6d6bee20.css",
+    "main.js": "/Portfolio/static/js/main.63c22952.js",
     "static/media/Portfolio.PNG": "/Portfolio/static/media/Portfolio.b473f85bddf1f1d051c3.PNG",
     "static/media/music-player.PNG": "/Portfolio/static/media/music-player.ac7947385dd750ba717d.PNG",
     "static/media/profile.png": "/Portfolio/static/media/profile.fa0f17412ec3fd15a51e.png",
@@ -23,11 +23,11 @@
     "static/media/React.png": "/Portfolio/static/media/React.98ff38735baa4c1b0381.png",
     "static/media/okkda_asia_technologies.PNG": "/Portfolio/static/media/okkda_asia_technologies.134459fecd5007fdbd95.PNG",
     "index.html": "/Portfolio/index.html",
-    "main.81a90fc4.css.map": "/Portfolio/static/css/main.81a90fc4.css.map",
-    "main.d6215825.js.map": "/Portfolio/static/js/main.d6215825.js.map"
+    "main.6d6bee20.css.map": "/Portfolio/static/css/main.6d6bee20.css.map",
+    "main.63c22952.js.map": "/Portfolio/static/js/main.63c22952.js.map"
   },
   "entrypoints": [
-    "static/css/main.81a90fc4.css",
-    "static/js/main.d6215825.js"
+    "static/css/main.6d6bee20.css",
+    "static/js/main.63c22952.js"
   ]
 }
