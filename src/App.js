@@ -11,7 +11,7 @@ import Project from './components/Projects';
 import { useState } from 'react';
 import ProjectDetails from './components/ProjectDetails';
 import Contact from './components/Contact';
-// import StarCanvas from "./components/Canvas/Stars"; 
+import StarCanvas from "./components/Canvas/Stars"; 
 import { AnimatePresence } from "framer-motion";
 import Footer from './components/Footer';
 
@@ -36,8 +36,7 @@ function App() {
       <Router>
         <Navbar />
         <Body>
-          {/* to be followed */}
-          {/* <StarCanvas /> */}
+          <StarCanvas />
           <AnimatePresence>
             <div>
               <HeroSection />

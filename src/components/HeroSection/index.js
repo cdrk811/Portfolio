@@ -1,12 +1,12 @@
 import React from 'react';
 import { HeroContainer, HeroBg, HeroInnerContainer, HeroLeftContainer, Title, TextLoop, Span, SubTitle, ResumeButton, HeroRightContainer, Image } from "./HeroSectionStyle";
 import { Bio } from '../../data/constants';
-import { Typewriter } from "react-simple-typewriter";
+import Typewriter from "typewriter-effect";
 import profile from "../../images/profile.png";
 import HeroBgAnimation from '../HeroBgAnimation';
 import { motion } from "framer-motion";
 import { headContainerAnimation, headContentAnimation, headTextAnimation } from "../../utils/motion";
-// import StarCanvas from "../Canvas/Stars";
+import StarCanvas from "../Canvas/Stars";
 import { Tilt } from "react-tilt";
 
 const HeroSection = () => {
@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div id="about">
             <HeroContainer>
                 <HeroBg>
-                    {/* <StarCanvas /> */}
+                    <StarCanvas />
                     <HeroBgAnimation />
                 </HeroBg>
 
@@ -29,10 +29,13 @@ const HeroSection = () => {
                                 <TextLoop>
                                     I am a
                                     <Span>
-                                        <Typewriter 
-                                            words={Bio.roles}
-                                            loop={true}
-                                        />
+                                    <Typewriter
+                                        options={{
+                                            strings: Bio.roles,
+                                            autoStart: true,
+                                            loop: true,
+                                        }}
+                                    />
                                     </Span>
                                 </TextLoop>
                             </motion.div>

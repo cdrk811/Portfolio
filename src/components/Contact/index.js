@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Container, Wrapper, Title, Desc, ContactForm, ContactTitle, ContactInput, ContactInputMessage, ContactButton } from "./ContactStyle";
-// import EarthCanvas from "../Canvas/Earth"; // will install package once it's compatible with react 19
+import EarthCanvas from "../Canvas/Earth";
 
 const Contact = () => {
     const form = useRef();
@@ -27,7 +27,7 @@ const Contact = () => {
     return (
         <Container>
             <Wrapper>
-                {/* <EarthCanvas /> */}
+                <EarthCanvas />
                 <Title>Contact</Title>
                 <Desc>Feel free to reach out to me for any questions or opportunities</Desc>
                 
